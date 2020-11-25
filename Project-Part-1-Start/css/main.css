@@ -11,7 +11,7 @@ Hint! You'll probably want to start by styling:
 I've left some boilerplate below for you.
 
 */
-@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(https://weloveiconfonts.com/api/?family=zocial);
 
 /* zocial */
 [class*="zocial-"]:before {
