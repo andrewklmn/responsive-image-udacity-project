@@ -25,8 +25,13 @@
   <h1>My responsive blog</h1>
 
   <article>
-
-    <img src="images_src/still_life.jpg">
+    <picture>
+      <source media="(max-width:400px)" 
+              srcset="images_src/still_life_1x.jpg 1x, images_src/still_life_2x.jpg 2x">
+      <source media="(max-width:700px)" 
+              srcset="images_src/still_life_2x.jpg 1x, images_src/still_life_3x.jpg 2x">
+      <img src="images_src/still_life_3x.jpg">
+    </picture>
 
     <h2>My story</h2>
     
